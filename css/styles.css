@@ -393,6 +393,7 @@ img {
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  color: #AFB1B8;
 }
 
 .clients-link:hover,
@@ -402,7 +403,7 @@ img {
 
 }
 
-.clients-link {
+.clients-icon {
   fill: currentColor;
 }
 /* footer */
@@ -477,7 +478,6 @@ img {
 
 .footer-socials {
   padding: 0;
-  padding-top: 10px;
   margin-left: 70px;
 }
 
@@ -507,12 +507,10 @@ img {
 
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 
-.help-box {
-  display: inline-block;
-  max-width: 300px;
-}
+
 /* portfolio */
 
 .filter {
